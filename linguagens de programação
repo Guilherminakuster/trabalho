@@ -1,1 +1,8 @@
 1 – Explique as diferenças entre 3 linguagens de programação:
+JavaScript
+É uma linguagem compilada de alto nível muito utilizada em sites front-end e no desenvolvimento de jogos. Empresas como WordPress, Khan Academy, Linkedin e Groupon utilizam essa língua em suas plataformas. Também é considerada uma ótima linguagem para quem está começando no mundo da programação. 
+Phyton
+É uma linguagem de programação de alto nível e de propósito generalista. Sua filosofia de design enfatiza a legibilidade do código com a proposta de ser de fácil compreensão com o uso de palavras-chave em inglês. Não costuma utilizar recursos gráficos como chaves e colchetes para delimitar blocos. 
+CSS
+O nome é uma abreviação de Cascading Style Sheets (ou Folhas de Estilo em Cascata, em português) e é uma linguagem estilística que atua na forma como um documento escrito em HTML ou em XML é apresentado visualmente. É uma das principais linguagens da open web auxiliando na estilização e organização de páginas web.
+
