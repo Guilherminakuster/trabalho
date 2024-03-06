@@ -2,3 +2,10 @@ a. A LGPD, Lei Geral de Proteção de Dados, funciona como proteção e seguran�
 Já um data center é uma instalação física que as empresas usam para hospedar aplicativos e dados essenciais, que necessitam da proteção de dados oferecida pela LGPD, de forma que os dados necessários para a empresa se encontrem protegidos e seguros, sem riscos de exposição. Para que um provedor de Data Center se proteja contra danos físicos, que podem influenciar na proteção dos dados de seus clientes, o ideal é investir em redundância, mesmo que os dados sejam guardados na nuvem. Além disso, é importante prezar pela segurança do local, com controles e verificação de acesso. Já contra a proteção de danos virtuais, é necessário dispor de tecnologias de segurança, como a criptografia de dados, firewalls e programas antimalware, que tornam a intercepção de informação mais difícil.
 
 b. Formatos de arquivos de dados proprietários e abertos
+Os formatos proprietários representam a memória digital privada. Já arquivos que são salvos em formatos abertos podem ser conhecidas por todos e são públicos, para que eles possam ter utilidade e ser reaproveitado
+b1. Exemplo de formato aberto: Atualmente o PDF é aberto, mas não permite a edição e a remixagem de seus textos e imagens.
+Exemplo de formato proprietário: DOC - formato proprietário de texto
+b2. A ideia de arquivos salvos em formatos abertos funciona para ajudar a informação governamental para chegar aos cidadãos, ampliando o acesso a informação.
+
+https://repositorio.enap.gov.br/bitstream/1/3152/1/M%C3%B3dulo%201%20-%20Conceitos%20de%20Dados%20Abertos.pdf
+https://campusvirtual.fiocruz.br/portal/guiarea/OpenFormats.html#:~:text=Os%20formatos%20propriet%C3%A1rios%20representam%20a,podem%20ser%20conhecidas%20por%20todos.
