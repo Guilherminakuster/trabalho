@@ -12,19 +12,65 @@ Código Javascript:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cumprimento em JavaScript</title>
+    <title>Página com JavaScript</title>
+</head>
+<body>
+    <h1>Bom dia</h1>
+    <p id="mensagem"></p>
+
+    <script>
+        var mensagem = "Oi, sou a Guilhermina!";
+        document.getElementById("mensagem").innerHTML = mensagem;
+    </script>
+</body>
+</html>
+
+Código Phyton
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Brython</title>
+    <script type="text/javascript" src="brython.js"></script>
 </head>
 <body>
     <!-- Um parágrafo onde a saudação será exibida -->
     <p id="saudacao"></p>
 
-    <!-- Inserindo JavaScript -->
-    <script>
-        // JavaScript começa aqui
-        var nome = "Guilhermina";
-        var saudacao = "Oi, eu sou a " + nome;
-        document.getElementById("saudacao").innerHTML = saudacao;
+    <!-- Inserindo Brython -->
+    <script type="text/python">
+        # Código Python começa aqui
+        nome = "Guilhermina"
+        document.getElementById("saudacao").innerHTML = f"Oi, sou a {nome}"
     </script>
+</body>
+</html>
+
+Código CSS
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com CSS</title>
+    <style>
+        /* Estilos CSS começam aqui */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffb6c1;
+        }
+        .mensagem {
+            font-size: 24px;
+            color: #fc0fc0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Texto "Oi, sou a Guilhermina" -->
+    <p class="mensagem">EOi, sou a Guilhermina</p>
 </body>
 </html>
 
