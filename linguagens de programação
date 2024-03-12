@@ -6,3 +6,28 @@ Phyton
 CSS
 O nome é uma abreviação de Cascading Style Sheets (ou Folhas de Estilo em Cascata, em português) e é uma linguagem estilística que atua na forma como um documento escrito em HTML ou em XML é apresentado visualmente. É uma das principais linguagens da open web auxiliando na estilização e organização de páginas web.
 
+Código Javascript:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumprimento em JavaScript</title>
+</head>
+<body>
+    <!-- Um parágrafo onde a saudação será exibida -->
+    <p id="saudacao"></p>
+
+    <!-- Inserindo JavaScript -->
+    <script>
+        // JavaScript começa aqui
+        var nome = "Guilhermina";
+        var saudacao = "Oi, eu sou a " + nome;
+        document.getElementById("saudacao").innerHTML = saudacao;
+    </script>
+</body>
+</html>
+
+
+
+
