@@ -7,3 +7,10 @@ for i in range(1, 11):
     print(i)
 
 b. Estrutura de tomada de decisão:
+idade = 20
+if idade < 18:
+    print("Você é menor de idade.")
+elif idade >= 18 and idade < 65:
+    print("Você é um adulto.")
+else:
+    print("Você é um idoso.")
