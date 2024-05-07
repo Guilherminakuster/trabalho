@@ -3,3 +3,11 @@ semana 7
 1. Implemente os códigos da aula
 2. Faça uma função que desenhe um triângulo de asterísco com o número de
 linhas informado como parâmetro.
+
+def desenhar_triangulo(num_linhas):
+    for i in range(1, num_linhas + 1):
+        print('*' * i)
+
+# Exemplo de uso:
+num_linhas = int(input("8"))
+desenhar_triangulo(num_linhas)
