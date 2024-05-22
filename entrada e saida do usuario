@@ -1,0 +1,56 @@
+1)  Crie uma função que imprima as informações de três parâmetros:
+nome, idade, e cidade, de maneira formatada. Use os argumentos
+sep e end da função print( ) para organizar a saída.
+
+def imprimir_informacoes(nome, idade, cidade, sep='\n', end='\n'):
+    print("Nome:", nome, sep=sep, end=end)
+    print("Idade:", idade, sep=sep, end=end)
+    print("Cidade:", cidade, sep=sep, end=end)
+
+    imprimir_informacoes("Guilhermina", 21, "Rio de Janeiro", sep=', ', end='\n')
+
+    2) Escreva uma função que peça ao usuário dois números e a
+operação desejada ('+', '-', '*' ou '/'). Sua função deve calcular e
+imprimir o resultado da operação especificada.
+
+def calcular():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero!")
+            return
+    else:
+        print("Operação inválida!")
+        return
+
+    print("O resultado de", num1, operacao, num2, "é:", resultado)
+
+calcular()
+
+3) Crie uma função que peça ao usuário para digitar itens de uma lista
+de compras, separados por vírgula. Armazene esses itens em uma
+lista e, ao final, imprima todos os itens em linhas separadas usando
+um laço.
+
+def lista_de_compras():
+    entrada = input("maça, banana, uva: ")
+    itens = entrada.split(',')
+
+    print("Lista de compras:")
+    for item in itens:
+        print(item.strip())  
+
+lista_de_compras()
+
+
